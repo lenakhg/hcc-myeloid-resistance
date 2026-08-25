@@ -1,0 +1,22 @@
+# SLURM logs
+*.out
+*.err
+*.log
+
+# Large data objects (host on Zenodo instead)
+*.rds
+*.h5ad
+*.h5
+
+# R / temp
+.Rhistory
+.RData
+.Rproj.user/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw data (download from GEO)
+data/raw/

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived results, please cite it as below."
+title: "A Baseline Myeloid Immunosuppression Signature Associated with Resistance to Anti-PD-1 Plus Lenvatinib in Hepatocellular Carcinoma"
+authors:
+  - family-names: Alghamdi
+    given-names: Lena
+    affiliation: "King Khalid University; KAUST Academy; University of Cambridge"
+  - family-names: Tavares
+    given-names: Hugo
+    affiliation: "University of Cambridge"
+date-released: 2026-08-25
+license: MIT
+repository-code: "https://github.com/lenakhg/hcc-myeloid-resistance"
+keywords:
+  - hepatocellular carcinoma
+  - single-cell RNA-sequencing
+  - immune checkpoint blockade
+  - tumour-associated macrophages
+  - pseudobulk differential expression
+  - drug repurposing

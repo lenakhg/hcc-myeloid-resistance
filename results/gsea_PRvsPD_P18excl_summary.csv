@@ -1,0 +1,6 @@
+"category","label","n_tested","n_sig_p05","top_hit","top_NES","top_padj"
+"H","Hallmark",50,19,"HALLMARK_TNFA_SIGNALING_VIA_NFKB",-2.342,1.68e-11
+"C2","Curated_Pathways",7670,909,"RUTELLA_RESPONSE_TO_CSF2RB_AND_IL4_DN",-2.882,3.18e-29
+"C6","Oncogenic_Signatures",189,55,"RPS14_DN.V1_UP",-2.594,1.61e-14
+"C7","Immunologic_Signatures",5219,1329,"HOEK_NK_CELL_2011_2012_TIV_3D_VS_0DY_ADULT_3D_DN",-3.76,2.54e-63
+"C8","Cell_Type_Signatures",866,290,"ZHONG_PFC_MAJOR_TYPES_MICROGLIA",-3.327,5.32e-63
