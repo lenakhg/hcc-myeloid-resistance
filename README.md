@@ -31,7 +31,7 @@ The raw count matrices are downloaded from GEO. The processed Seurat objects (po
 
 ## The complete-responder exclusion
 
-The dataset contains one complete responder (patient P18) contributing ~18% of cells with an atypical plasma-cell population. To avoid biasing shared normalisation and the PCA embedding, **P18 is excluded** from the analyses in this repository (hence the `P18excl` naming). A sensitivity analysis confirms the signature is near-identical with and without P18.
+The dataset contains one complete responder (patient P18) contributing ~18% of cells with an atypical plasma-cell population. To avoid biasing shared normalisation and the PCA embedding, **P18 is excluded** from the analyses in this repository (hence the `P18excl` naming).
 
 ---
 
@@ -89,7 +89,7 @@ Every figure and number in the manuscript maps to a script and an output file:
 - **DESeq2 contrast:** `~ recist` with PD as the reference level; **negative log2FC = elevated in PD** (non-responders).
 - **Filter:** genes retained with ≥10 counts in ≥2 of the 5 patients (15,805 genes tested).
 - **GSEA ranking:** genes ranked by the DESeq2 Wald statistic; GSEA is reported as a finding characterising the enriched biology (it is not independent of the DESeq2 ranking).
-- **Druggability:** all 65 significant genes are queried against DGIdb (unbiased); of the 29 druggable hits, three leads are prioritised by pre-specified criteria (PD-elevated + approved/phase III agent + myeloid-immunosuppressive mechanism). DGIdb queried 2026-08-25.
+- **Druggability:** all 65 significant genes are queried against DGIdb; of the 29 druggable hits, three leads are prioritised by pre-specified criteria (PD-elevated + approved/phase III agent + myeloid-immunosuppressive mechanism). DGIdb queried 2026-08-25.
 - **DepMap co-dependency** is pan-cancer and presented as supporting, not primary, evidence.
 
 ---
