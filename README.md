@@ -31,7 +31,7 @@ The raw count matrices are downloaded from GEO. The processed Seurat objects (po
 
 ## The complete-responder exclusion
 
-The dataset contains one complete responder (patient P18) contributing ~18% of cells with an atypical plasma-cell population. To avoid biasing shared normalisation and the PCA embedding, **P18 is excluded** from the analyses in this repository (hence the `P18excl` naming). A sensitivity analysis confirms the signature is near-identical with and without P18.
+The dataset contains one complete responder (patient P18) contributing ~18% of cells with an atypical plasma-cell population. To avoid biasing shared normalisation and the PCA embedding, **P18 is excluded** from the analyses in this repository (hence the `P18excl` naming).
 
 ---
 
