@@ -22,7 +22,7 @@ Most patients with advanced hepatocellular carcinoma (HCC) derive no durable ben
 | Resource | Location |
 |---|---|
 | **Raw data** (scRNA-seq, 9 patients) | [GEO: GSE235863](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235863) (Guo et al., *Cancer Cell* 2025) |
-| **Processed Seurat objects** (`.rds`) | Zenodo: [DOI to be added] |
+| **Processed Seurat objects** (`.rds`) | Zenodo: [(https://doi.org/10.5281/zenodo.22131800)] |
 | **Result tables & figures** | This repository (`results/`, `figures/`) |
 
 The raw count matrices are downloaded from GEO. The processed Seurat objects (post-normalisation, annotation, and sub-clustering) are large and are archived on Zenodo; the scripts below regenerate them from the raw data.
